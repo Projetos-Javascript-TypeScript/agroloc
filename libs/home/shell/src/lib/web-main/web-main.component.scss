@@ -1,0 +1,171 @@
+:host {
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .example-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .example-sidenav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+    .head {
+      display: flex;
+      flex-direction: row;
+    }
+    .containerFilters {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+    }
+    .filters {
+      display: flex;
+      flex-direction: column;
+    }
+
+    mat-form-field {
+      margin-bottom: 15px;
+      width: 300px;
+    }
+  }
+
+  .example-form-field {
+    margin-top: 26px;
+    width: 33%;
+  }
+
+  mat-sidenav {
+    width: 30%;
+    height: 100%;
+  }
+
+  mat-sidenav-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .example-sidenav-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+    width: 100%;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.4);
+    mat-toolbar-row {
+      min-height: 70px;
+    }
+  }
+
+  #content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 140px;
+  }
+
+  .footerToolbar {
+  }
+
+  .mat-tab-body-wrapper {
+    display: none;
+  }
+
+  .favoriteIcon {
+    color: rgb(26, 115, 232);
+  }
+
+  .logo {
+    color: #59b528;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .account-button {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .account-img {
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+
+  .person-img {
+    width: 36px;
+    height: 36px;
+    font-size: 36px;
+  }
+
+  .accountIcon {
+    width: auto;
+    height: auto;
+  }
+
+  .contentMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #568b3f;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: #568b3f;
+  }
+
+  //   ::ng-deep {
+  //     .cdk-overlay-pane {
+  //       div.mat-mdc-menu-panel {
+  //         max-width: none;
+  //       }
+  //     }
+  //   }
+}
+
+.imgAccount {
+  height: 56px;
+  width: 56px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+mat-icon {
+  width: auto;
+  height: auto;
+}
