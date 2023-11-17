@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "npm install && nx build back"
+    "build": "npm install && nx build back",
+    "start": "node dist/apps/back/main.js"
   },
   "private": true,
   "dependencies": {
