@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "buid": "npm install && nx build back"
+    "build": "npm install && nx build back"
   },
   "private": true,
   "dependencies": {
